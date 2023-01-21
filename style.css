@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+nav {
+	margin: 0;
+	color: #000;
+	background-color: #2fd9ff;
+	text-align: center;
+}
+li {
+	display: inline-block;
+	padding: 10px 50px;
+}
+
+main {
+	background-color: #2771de;
+}
+
+p.content {
+	padding: 30px;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+}
+main ~ footer {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+	color: #ff7fd4;
+}
